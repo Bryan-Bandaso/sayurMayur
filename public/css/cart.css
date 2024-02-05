@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px;
+  padding-top: 30px;
+  gap: 30px;
+}
+
+.card {
+  box-shadow: 5px 5px 5px rgb(147, 147, 147);
+}
+
+.flex-container table thead {
+  background-color: #ff5100;
+}
+
+.flex-container table thead tr th {
+  color: white;
+}
+
+.flex-container .product-name a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.flex-container .qty #qty-button {
+  cursor: pointer;
+}
+
+.flex-container .qty .minus,
+.plus {
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 5px 8px 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.flex-container .qty #qtyinput {
+  border: 1px solid #ddd;
+  background: #f2f2f2;
+  width: 70px;
+}
+
+.flex-container .card .card-header {
+  background-color: #ff5100;
+  color: white;
+  font-weight: bold;
+}
+
+.flex-container .card .card-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-container #cart {
+  width: 500px;
+  height: 330px;
+}
+
+.flex-container #cart label {
+  font-size: 16px;
+}
+
+.flex-container #cart p {
+  font-size: 16px;
+}
+
+.input-group input {
+  width: 80px;
+}
+
+.flex-container .button-check {
+  padding: 10px 25px;
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 400ms;
+  width: 100%;
+}
+
+.flex-container .button-check:hover {
+  background-color: orangered;
+  transition: 400ms;
+}
+
+table button {
+  border: none;
+  color: white;
+  background-color: orangered;
+  border-radius: 5px;
+  transition: 400ms;
+}
+
+table button:hover {
+  border: none;
+  color: white;
+  background-color: blue;
+  transition: 400ms;
+}
+
+@media only screen and (max-width: 1069px) {
+  .flex-container #cart {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container #cart {
+    width: 100%;
+  }
+
+  .flex-container .button-check {
+    width: 100%;
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .flex-container #cart {
+    height: auto;
+  }
+}

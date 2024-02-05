@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.shop-sidebar .card {
+  background-color: rgb(245, 244, 244);
+}
+
+.shop-sidebar .card ul {
+  list-style: none;
+}
+
+.shop-sidebar .card-body li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 400;
+}
+
+.shop-sidebar .card-body .categor-list {
+  text-align: start;
+}
+
+.single-widget.category h4 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.categor-list {
+  padding-left: 0;
+}
+
+.categor-list li {
+  margin-bottom: 15px;
+}
+
+.categor-list li a:hover {
+  color: orangered;
+}
+
+.card-group {
+  gap: 15px;
+}
+
+.card-group .card {
+  border: none;
+}
+
+.shop-sorter label {
+  color: grey;
+}
+
+.shop-sorter select {
+  background-color: white;
+  padding: 3px 5px 3px 10px;
+  border-style: solid;
+  border-color: rgb(207, 206, 206);
+}
+
+.pagination {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: orange;
+}
+
+/* Styling for previous and next arrows */
+.page-link[aria-label='Previous'],
+.page-link[aria-label='Next'] {
+  font-size: 18px;
+}
+
+.card {
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #888;
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: orange;
+  border: none;
+  width: 100%;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card h5 {
+  font-size: 17px;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  #list-product {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

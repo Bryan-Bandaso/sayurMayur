@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#login {
+  background-color: rgb(218, 237, 223);
+}
+
+#loginPage {
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px;
+}
+
+#loginPage h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#loginPage label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#loginPage input[type='email'],
+#loginPage input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+#loginPage button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#loginPage button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+#loginPage p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+#loginPage p a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+#loginPage p a:hover {
+  text-decoration: underline;
+}

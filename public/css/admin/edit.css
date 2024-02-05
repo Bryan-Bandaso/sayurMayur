@@ -1,0 +1,36 @@
+.card {
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.row > .col:nth-child(1) .card {
+  width: 25rem;
+}
+
+.row > .col:nth-child(2) .card {
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.row .btn-edit {
+  padding: 15px 25px;
+  border: none;
+  background-color: #0e2238;
+  color: white;
+  font-weight: bold;
+  transition: 500ms;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.row .btn-edit:hover {
+  background-color: #3b7ddd;
+  transition: 500ms;
+}
+
+.card-body label {
+  width: 150px;
+}
+
+.card img {
+  padding: 15px;
+}

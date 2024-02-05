@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Index</title>
+
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <%- include('./components/navbar') %>
+
+    <!-- Section Hero -->
+    <section class="hero">
+      <div class="container my-5">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <div class="lc-block mb-3">
+              <h2 class="fw-bold display-4">
+                Border hero with cropped image and shadows&nbsp;
+              </h2>
+            </div>
+
+            <div class="lc-block mb-3">
+              <p class="lead">
+                Quickly design and customize responsive mobile-first sites with
+                Bootstrap, the world’s most popular front-end open source
+                toolkit, featuring Sass variables and mixins, responsive grid
+                system, extensive prebuilt components, and powerful JavaScript
+                plugins.
+              </p>
+            </div>
+
+            <div
+              class="lc-block d-grid gap-2 d-md-flex justify-content-md-start"
+            >
+              <a class="btn btn-primary px-4 me-md-2" href="#" role="button"
+                >Click me, I'm a button</a
+              >
+              <a class="btn btn-outline-secondary px-4" href="#" role="button"
+                >Click me, I'm a button</a
+              >
+            </div>
+          </div>
+
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <div class="lc-block">
+              <img
+                class="rounded-start w-100"
+                src="https://images.unsplash.com/photo-1493612276216-ee3925520721?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8d2Vic2l0ZXxlbnwwfDF8fHwxNjIxNDQ4NTEw&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080"
+                alt="Photo by Diego PH"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section -->
+
+    <!-- Section Choose -->
+    <section class="choose">
+      <h3>Why Choose Us!</h3>
+      <div class="img-icon">
+        <div class="card text-white bg-success">
+          <div class="card-body">
+            <img src="/assets/truck_7032218.png" alt="" />
+            <div class="card-text">
+              <h5 class="card-title">Special title treatment</h5>
+              <p>
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card text-white bg-danger">
+          <div class="card-body">
+            <img src="/assets/fresh_6707257.png" alt="" />
+            <div class="card-text">
+              <h5 class="card-title">Special title treatment</h5>
+              <p>
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card text-dark bg-warning">
+          <div class="card-body">
+            <img src="/assets/income_3513897.png" alt="" />
+            <div class="card-text">
+              <h5 class="card-title">Special title treatment</h5>
+              <p>
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#5000ca"
+        fill-opacity="1"
+        d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
+
+    <!-- Section Top Seller -->
+
+    <section class="top-seller">
+      <h3>Best Seller</h3>
+      <div class="flex-seller">
+        <div class="card-side">
+          <div class="card">
+            <img src="/assets/furniture.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="card-side">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/assets/furniture.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/assets/furniture.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="/assets/furniture.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Top Seller -->
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#5000ca"
+        fill-opacity="1"
+        d="M0,160L34.3,186.7C68.6,213,137,267,206,266.7C274.3,267,343,213,411,176C480,139,549,117,617,101.3C685.7,85,754,75,823,85.3C891.4,96,960,128,1029,160C1097.1,192,1166,224,1234,229.3C1302.9,235,1371,213,1406,202.7L1440,192L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+      ></path>
+    </svg>
+
+    <%- include('./components/footer') %>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
